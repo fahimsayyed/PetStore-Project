@@ -84,6 +84,15 @@ pet-store/
 
 Contributions are welcome! Please feel free to submit pull requests or open issues to suggest improvements or report bugs.
 
+We're looking for contributors with skills in:
+
+* HTML, CSS, and JavaScript (especially Tailwind CSS
+* Frontend and backend web development
+* UI/UX design
+* And any other skill that could be useful to a web project.
+
+* Whether you're a seasoned developer or just starting out, your contributions are welcome!
+
 ## License
 
 This project is licensed under the MIT License.
