@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Pet Accessory Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-gray-50 font-sans">
+    <header class="bg-white shadow-md">
+      <div
+        class="container mx-auto px-4 py-3 flex items-center justify-between"
+      >
+        <div>
+          <a href="/" class="text-2xl font-bold text-gray-800">Pet Haven</a>
+        </div>
+
+        <nav class="hidden md:flex space-x-4 text-gray-600">
+          <a href="#" class="hover:text-gray-800">Store Locator</a>
+          <a href="#" class="hover:text-gray-800">Help</a>
+          <a href="#" class="hover:text-gray-800">Account</a>
+        </nav>
+
+        <div class="flex items-center space-x-4">
+          <input
+            type="text"
+            placeholder="Search"
+            class="border rounded-md px-2 py-1 hidden md:block"
+          />
+          <a href="#" class="text-gray-600 hover:text-gray-800">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="bg-gray-100 py-2 hidden md:block">
+      <div class="container mx-auto px-4">
+        <ul class="flex space-x-4 text-gray-700">
+          <li><a href="#" class="hover:text-gray-900">New! Dog</a></li>
+          <li><a href="#" class="hover:text-gray-900">Cat</a></li>
+          <li><a href="#" class="hover:text-gray-900">Gift Baskets</a></li>
+          <li><a href="#" class="hover:text-gray-900">Bowls</a></li>
+          <li><a href="#" class="hover:text-gray-900">Bones & Chews</a></li>
+          <li><a href="#" class="hover:text-gray-900">Treats</a></li>
+          <li><a href="#" class="hover:text-gray-900">Accessories</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container mx-auto px-4 py-8">
+      <h2 class="text-xl font-semibold mb-4">USA Made Treats for Dogs</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="assets/images/treat1.jpg"
+            alt="Dog Treat"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800">
+              Delicious Dog Treats
+            </h3>
+            <p class="text-gray-600 mb-2">Made with natural ingredients.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-gray-700">$9.99</span>
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div>
+          <h4 class="font-bold mb-2">Contact Us</h4>
+          <p>123 Pet Lane</p>
+          <p>Anytown, USA 12345</p>
+          <p>Email: info@pethaven.com</p>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-2">Categories</h4>
+          <ul class="text-gray-300">
+            <li><a href="#" class="hover:text-white">New Arrivals</a></li>
+            <li><a href="#" class="hover:text-white">Dog Food</a></li>
+            <li><a href="#" class="hover:text-white">Cat Toys</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-2">Information</h4>
+          <ul class="text-gray-300">
+            <li><a href="#" class="hover:text-white">About Us</a></li>
+            <li><a href="#" class="hover:text-white">Shipping & Returns</a></li>
+            <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p>&copy; 2024 Pet Haven. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
